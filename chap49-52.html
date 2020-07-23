@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Sign Up Form</h3>
+        <div class="row1">
+            <p>First Name:</p><input type="text" name="" id="name"><br>
+        </div>
+        <div class="row2">
+            <p>Last Name:</p><input type="text" name="" id="lName"><br>
+        </div>
+        <div class="row3">
+            <p>Email:</p><input type="email" name="" id="email"><br>
+        </div>
+        <div class="row4">
+            <p>Address:</p><textarea name="" id="Address" cols="35" rows="7"></textarea>
+        </div>
+        <div class="submit">
+            <button onclick="submit()">Submit</button><br>
+        </div>
+        <div>
+            <p id="slowLoris"> Slow lorises are a group of several species of strepsirrhine primates which make up the
+                genus Nycticebus. <a href="javascript:void(0);" onClick="detail();"><em>Click for more.</em></a>
+            </p>
+         </div>
+        </div>
+        <div>
+            <table id="mytable">
+                <th>
+                    <tr>
+                        <td>Index</td>
+                        <td>Name</td>
+                        <td>class</td>
+                    </tr>
+                </th>
+                <tr >
+                    <td>0</td>
+                    <td id="row">John</td>
+                    <td>10</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData()" >Edit</button></td>
+                </tr>
+                <tr >
+                    <td>1</td>
+                    <td id="row2">Cena</td>
+                    <td>9</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData1()">Edit</button></td>
+                </tr>
+                <tr >
+                    <td>2</td>
+                    <td id="row3">Ortan</td>
+                    <td>8</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData2()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td id="row4">Jawad</td>
+                    <td>7</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData3()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td id="row5">Khan</td>
+                    <td>6</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData4()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td id="row6"> Fawad</td>
+                    <td>8</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData5()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td id="row7">Aveed</td>
+                    <td>5</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData6()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td id="row8">Kamran</td>
+                    <td>4</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData7()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td id="row9">Shahrukh</td>
+                    <td>8</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData8()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td id="row10">Salman khan</td>
+                    <td>8</td>
+                    <td><button onclick="deleteData(this)">Delete</button></td>
+                    <td><button onclick="editData9()">Edit</button></td>
+                </tr>
+            </table>
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>

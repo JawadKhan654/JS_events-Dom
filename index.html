@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <input id="txt1" type="number" placeholder="Enter a number">
+    <input id="txt2" type="number" placeholder="Enter number for a power"><br>
+    <a href="" onclick="power()">Click For a result</a><br>
+    <a href="" onclick="show()">Click </a><br>
+    <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbdjMcbo5kEwdBIx0cBoWRjS60qNLhS-Zc3g&usqp=CAU"
+            alt="" onclick="imageshow()">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ0sB246Uz2liiVvioGhSd1vhTQKHBJnhr-WQ&usqp=CAU"
+            alt="" onclick="imageshow()">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR58UTZTqsgPz2hT0eWen6w7K85Ilc0ZvwJRQ&usqp=CAU"
+            alt="" onclick="imageshow()">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfKEQU8lE48WW1nqENBYYdE58oicgHvnBulg&usqp=CAU"
+            alt="" onclick="imageshow()">
+
+    </div>
+    <div>
+        <table id="mytable">
+            <th>
+                <tr>
+                    <td>Index</td>
+                    <td>Name</td>
+                    <td>class</td>
+                </tr>
+            </th>
+            <tr>
+                <td>0</td>
+                <td>John</td>
+                <td>10</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cena</td>
+                <td>9</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ortan</td>
+                <td>8</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jawad</td>
+                <td>7</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Khan</td>
+                <td>6</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Fawad</td>
+                <td>8</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Aveed</td>
+                <td>5</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Kamran</td>
+                <td>4</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Shahrukh</td>
+                <td>8</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Salman khan</td>
+                <td>8</td>
+                <td><button onclick="deleteData(this)">Delete</button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="changeImages">
+        <img src="car.jpg" id="before" alt="" onmouseover="changeImg()" onmouseout="changeImage()">
+    </div>
+    <div>
+        <button type="button" onClick="increase()">Increase Clicks</button>
+        <button type="button" onClick="decrease()">Decrease Clicks</button>
+        <p>Clicks: <a id="clicks">0</a></p>
+    </div>
+    <a href="chap49-52.html">chap 49-52</a><br>
+    <a href="chap52-58.html">chap 52-58</a>
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-nam" ” />
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" />
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+        </div>
+        <div id="main-content" class="content">
+            <p class="render"> First Name : jawad/p>
+            <p class="render" id="lastName">Last Name: khan</p>
+            <p class="render"> Email : aveed59@gmail.com</p>
+            <p class="render"> Country : Pakistan </p>
+            <p class="render"> contact : +92 300 1234567</p>
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.image img{
+    max-height: 220px;
+}
+.container{
+    margin: auto;
+    width: 60%;
+    padding: 10px 0;
+    align-items: center;
+    text-align: center;
+}
+.container p{
+    display: inline;
+}
+.row1,.row2,.row3,.row4{
+    padding-top: 30px;
+}
+button{
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+}
+.container input{
+    width: 200px;
+}
+.row3 input{
+    margin-left: 28px;
+}
+.submit{
+    margin-bottom:50px;
+}
